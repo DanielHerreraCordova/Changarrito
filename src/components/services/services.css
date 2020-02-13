@@ -137,10 +137,14 @@ color: white;
     .div1 { grid-area: 1 / 1 / 2 / 7;}
     .div2 { grid-area: 2 / 1 / 3 / 7;}
     .div3 { grid-area: 3 / 1 / 4 / 7;}
-    .div4 { grid-area: 4 / 1 / 5 / 7; height: 350px;}
+    .div4 { grid-area: 4 / 1 / 5 / 7;}
     .div5 { grid-area: 5 / 1 / 6 / 7;}
     .div6 { grid-area: 6 / 1 / 7 / 7;}
     
+    .div1,.div2,.div3,.div4,.div5,.div6{
+        height: 180px;
+    }
+
     .imgServices{
         height: 100%;
         position: relative; 
@@ -162,7 +166,10 @@ color: white;
         text-align: left;
         line-height: 1.5;
         font-size: .9em;
-
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
         }
     .descripcion>button{
         display: none;

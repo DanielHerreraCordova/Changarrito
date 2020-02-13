@@ -1,0 +1,41 @@
+.galerytop>h3, .desc{
+    position: absolute;
+    top:40%;
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+    z-index: 10;
+    font-family: "big_johnregular";
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 10px black;
+}
+.galerytop .desc{
+    font-family: "slim_joeregular";
+    font-weight: 800;
+    top:50%;
+    font-size: 1rem;
+}
+
+
+@media(max-width:1024px){
+    .galerytop>h3, .desc{
+        top:30%;
+        font-size: 1.3rem;
+    }
+    .galerytop .desc{
+        top:40%;
+        font-size: .8rem;
+    }
+    }
+
+@media(max-width:414px){
+    .galerytop>h3, .desc{
+        top:20%;
+        font-size: 1rem;
+    }
+    .galerytop .desc{
+        top:35%;
+        font-size: .8rem;
+    }
+    }
