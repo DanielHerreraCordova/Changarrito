@@ -5,15 +5,15 @@ import "./footer.css"
 const Footer = () => (
   <footer>
     <div className="footer">
-        <section>
+        <section className="made">
             © {new Date().getFullYear()}, Develop
             {` Changarrito.com`}
         </section>
             <ul className="mapSite">
-                <li><Link to="/">HOME</Link></li>    
-                <li><Link to="/404">ABOUT</Link></li>
-                <li><Link to="/404">PRICES</Link></li>
-                <li><Link to="/404">CONTACT</Link></li>
+                <li><Link to="/">Inicio</Link></li>
+                <li><Link to="/404">Servicios</Link></li>
+                <li><Link to="/404">Precios</Link></li>
+                <li><Link to="/404">Contacto</Link></li>
             </ul>
         <section>
         <ul className="mapSite">

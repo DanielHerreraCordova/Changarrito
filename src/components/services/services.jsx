@@ -8,7 +8,7 @@ import Image5 from "./image5"
 import Image6 from "./image6"
 
 const services=()=>(
-    <div>
+    <div className="services">
     <h1 className="titleS">Servicios</h1>
     <div class="parent">
         

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Mi Changarrito`,
+    title: `Changarrito`,
     description: `Este es un Sitio desarrollado para pequeñsa y medianas empresas.`,
     author: `Daniel Herrera`,
   },
@@ -21,10 +21,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#02185C`,
+        theme_color: `#02185C`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/changarrito.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
