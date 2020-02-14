@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
         <li><Link to="/404">Servicios</Link></li>
         <li><Link to="/404">Precios</Link></li>
         <li><Link to="/404">Contacto</Link></li>
-        <li className="bn"><Link to="/404">Registrate</Link></li>
+        <li className="bn"><Link to="/backofice">Registrate</Link></li>
       </ul>
     </div>
   </header>
