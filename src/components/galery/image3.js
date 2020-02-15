@@ -14,13 +14,13 @@ const Image3 = () => {
           }
       }
     `)
-      return  (
+
+    return  (
       <div className="galerytop">
-        <h3>Optimiza el tiempo de entrega</h3>
+        <h3>Aumenta tus ventas</h3>
         <Img fluid={data.placeholderImage.childImageSharp.fluid} />
       </div>
   )
   }
-    
 
 export default Image3

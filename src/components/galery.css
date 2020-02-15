@@ -1,8 +1,8 @@
 .galerytop>h3, .desc{
     position: absolute;
     top:40%;
-    width: 80%;
-    margin: 0 10%;
+    width: 70%;
+    margin: 0 15%;
     text-align: center;
     z-index: 10;
     font-family: "big_johnregular";
@@ -32,7 +32,7 @@
 @media(max-width:414px){
     .galerytop>h3, .desc{
         top:20%;
-        font-size: 1rem;
+        font-size: .8rem;
     }
     .galerytop .desc{
         top:35%;
