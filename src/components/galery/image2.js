@@ -14,7 +14,18 @@ const Image2 = () => {
           }
       }
     `)
-    return  <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+       return  (
+    <div className="galerytop">
+      <h3>Aumenta tus ventas</h3>
+      <p className="desc"> </p>
+      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+    </div>
+)
 }
 
+export default Image1
+
+    
+    
+    
 export default Image2
